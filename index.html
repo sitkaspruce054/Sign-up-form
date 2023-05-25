@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="signup.js" defer> </script>
     <link rel="stylesheet" href="./style.css">
     <title>Sign Up</title>
 </head>
@@ -23,12 +24,12 @@
                
             </blockquote>
             <blockquote>
-                You know you want to.
+                You know you want to
             </blockquote>
         </div>
         <div class="form">
             <h3> Lets do this!</h3>
-            <form class= "form_container"action="example.com/path" method="post">
+            <form id= "form_container"action="example.com/path" method="post">
                 
                 <ul>
 
@@ -69,11 +70,13 @@
 
                     
 
-    
+                    <div id = "war"></div>
                 </ul>
+                
             </div>
+            
            
-        <button > Create Account</button>
+        <button type="submit" form="form_container" id="submit" disabled> Create Account</button>
         <div class="footer"> Already have an account? <a href="url"> Log in</a></div>
         </div>
         

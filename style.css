@@ -38,6 +38,7 @@ body{
     flex-grow: .35;
     z-index: -1;
     min-height: 100vh;
+    max-height: 100vh;
     
    
     
@@ -48,8 +49,9 @@ body{
 .img{
     object-fit: cover;
     width: 100%;
+    height: 100%;
     position:absolute;
-    min-height: 100vh;
+    
     z-index: -1;
     
   
@@ -120,7 +122,7 @@ input{
     border-style: none;
 }
 
-.form_container{
+#form_container{
 
     display: flex;
     flex-direction: row;
@@ -160,7 +162,7 @@ button{
     font-family: customfont2;
     background-color:rgb(77, 77, 77) ;
     display: flex;
-    color: ;
+    
     margin-top: 1.5rem;
     margin-left: 2.5rem;
     align-self: flex-start;
@@ -193,6 +195,12 @@ input:invalid {
 a{
     color: rgb(197, 241, 217);
     text-decoration: none;
+}
+
+#war{
+    color:red;
+    margin-top: .5rem;
+    
 }
 
 
